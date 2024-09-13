@@ -31,10 +31,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB    &kp Q             &kp W  &kp E         &kp R      &kp T                     &kp Y         &kp U          &kp I  &kp O      &kp P       &kp BACKSLASH
-&ESCtilde  &kp A             &kp S  &kp D         &kp F      &kp G                     &kp H         &kp J          &kp K  &kp L      &kp SEMI    &kp SQT
-&kp LSHFT  &kp LEFT_CONTROL  &kp Z  &kp X         &kp C      &kp V                     &kp B         &kp N          &kp M  &kp COMMA  &kp PERIOD  &kp SLASH
-                                    &kp LEFT_GUI  &kp SPACE  &mt LEFT_ALT LG(SPACE)    &lt 1 RETURN  &kp BACKSPACE  &mo 2
+&kp TAB    &kp Q             &kp W  &kp E                   &kp R     &kp T        &kp Y         &kp U          &kp I  &kp O      &kp P       &kp BACKSLASH
+&ESCtilde  &kp A             &kp S  &kp D                   &kp F     &kp G        &kp H         &kp J          &kp K  &kp L      &kp SEMI    &kp SQT
+&kp LSHFT  &kp LEFT_CONTROL  &kp Z  &kp X                   &kp C     &kp V        &kp B         &kp N          &kp M  &kp COMMA  &kp PERIOD  &kp SLASH
+                                    &mt LEFT_ALT LG(SPACE)  &kp LGUI  &kp SPACE    &lt 1 RETURN  &kp BACKSPACE  &mo 2
             >;
         };
 
@@ -61,9 +61,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TILDE  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET      &kp AMPS      &kp ASTRK     &kp LPAR      &kp RPAR  &kp K_LOCK
-&trans     &trans    &trans  &trans    &trans    &trans       &kp MINUS      &kp EQUAL     &kp LBKT      &kp RBKT      &trans    &trans
-&kp LSHFT  &trans    &trans  &trans    &trans    &trans       &kp LS(UNDER)  &kp LS(PLUS)  &kp LS(LBRC)  &kp LS(RBRC)  &trans    &trans
+&kp TILDE  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET      &kp AMPS      &kp ASTRK  &kp LPAR  &kp RPAR  &kp C_POWER
+&trans     &trans    &trans  &trans    &trans    &trans       &kp MINUS      &kp EQUAL     &trans     &kp LBKT  &kp RBKT  &trans
+&kp LSHFT  &trans    &trans  &trans    &trans    &trans       &kp LS(UNDER)  &kp LS(PLUS)  &trans     &kp LBRC  &kp RBRC  &trans
                              &mo 3     &trans    &trans       &trans         &trans        &trans
             >;
         };
